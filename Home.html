@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2ecc71;
+            --secondary: #3498db;
+            --accent: #f1c40f;
+            --background: #F0D3F7;
+            --card-bg: #2A1E5C;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', 'Inter';
+            background: var(--background);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #EE4266;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .dsa-img { background-image: url('DSA.jpg'); }
+        .oops-img { background-image: url('oops.png'); }
+        .os-img { background-image: url('os.png'); }
+        .hld-img { background-image: url('sd.jpg'); }
+        .lld-img { background-image: url('lld.png'); }
+        .cn-img { background-image: url('cn.jpg'); }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #EE4266;
+            margin-bottom: 1rem;
+        }
+
+        .card-link {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: var(--primary);
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+
+        .card-link:hover {
+            background: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Learning Journey</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="card-img dsa-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Data Structures & Algorithms</h2>
+                    <a href="https://docs.google.com/spreadsheets/d/1DuIc87HCV6d5JMqLaabK1H5RsWx4st_CwPPXZy-B4YA/edit?usp=sharing" class="card-link" target="_blank">Track Progress</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img oops-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Object-Oriented Programming</h2>
+                    <a href="https://docs.google.com/spreadsheets/d/1DuIc87HCV6d5JMqLaabK1H5RsWx4st_CwPPXZy-B4YA/edit?usp=sharing" class="card-link" target="_blank">Track Progress</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img os-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Operating Systems</h2>
+                    <a href="https://docs.google.com/spreadsheets/d/1DuIc87HCV6d5JMqLaabK1H5RsWx4st_CwPPXZy-B4YA/edit?usp=sharing" class="card-link" target="_blank">Track Progress</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img hld-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">High Level Design</h2>
+                    <a href="https://docs.google.com/spreadsheets/d/1DuIc87HCV6d5JMqLaabK1H5RsWx4st_CwPPXZy-B4YA/edit?usp=sharing" class="card-link" target="_blank">Track Progress</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img lld-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Low Level Design</h2>
+                    <a href="https://docs.google.com/spreadsheets/d/1DuIc87HCV6d5JMqLaabK1H5RsWx4st_CwPPXZy-B4YA/edit?usp=sharing" class="card-link" target="_blank">Track Progress</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img cn-img"></div>
+                <div class="card-content">
+                    <h2 class="card-title">Computer Networks</h2>
+                    <a href="https://docs.google.com/spreadsheets/d/1DuIc87HCV6d5JMqLaabK1H5RsWx4st_CwPPXZy-B4YA/edit?usp=sharing" class="card-link">Track Progress</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
